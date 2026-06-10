@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imag - Gallery</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <span class="brandArch">ARCH</span><span class="brandKode">KODE</span>
+      </h1>
+      <p>VISUAL ARCHIVE — CORNERSTONE COLLECTION</p>
+    </header>
+
+    <section class="filterBar">
+      <span class="filterLabel">Filter by -</span>
+      <button class="filterBtn active" data-filter="all">ALL</button>
+      <button class="filterBtn" data-filter="lunar">LUNAR</button>
+      <button class="filterBtn" data-filter="deep-space">DEEP SPACE</button>
+    </section>
+
+    <div class="imgaeGalleryCounter">- 0 Images</div>
+
+    <div class="galleryWrap">
+      <div class="galleryFlex"></div>
+
+      <div class="galleryEmptyText">
+        <p>No images in this category</p>
+      </div>
+
+      <div class="archkodeStamp">
+          AN <span class="stampArch">ARCH</span
+          ><span class="stampKode">KODE</span> PROJECT
+        </div>
+    </div>
+
+    <div class="galleryLightBox">
+      <div class="galleryLightBoxWrap">
+        <button class="galleryLightBoxBtn backward">
+          <i class="fa-solid fa-backward"></i>
+        </button>
+        <div class="galleryLightBoxImageWrap">
+          <div class="lightBoxCloseBtn close">
+            <i class="fa-regular fa-circle-xmark"></i>
+          </div>
+          <img src="" alt="" id="lightBoxImg" />
+          <div class="lighBoxInfo">
+            <span class="lightBoxTitle"></span>
+            <span class="lightBoxCount"></span>
+          </div>
+        </div>
+        <button class="galleryLightBoxBtn forward">
+          <i class="fa-solid fa-forward"></i>
+        </button>
+      </div>
+      <div class="lightBoxStrip"></div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
