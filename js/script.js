@@ -232,7 +232,6 @@ for (let i = 0; i < filterButtons.length; i++) {
     createImageGallery();
   });
 
-  console.log("selectAll");
 }
 
 createImageGallery();

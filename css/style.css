@@ -48,14 +48,6 @@ header {
   letter-spacing: 0.12em;
 }
 
-.archkodeStamp {
-  font-family: "DM Mono", monospace;
-  font-size: 0.55rem;
-  letter-spacing: 0.25em;
-  color: var(--ak-muted);
-  text-transform: uppercase;
-}
-
 .filterBar {
   padding: 2rem 4rem;
   display: flex;
@@ -133,6 +125,7 @@ header {
 }
 
 .archkodeStamp {
+  font-family: "DM Mono", monospace;
   font-size: 0.45rem;
   letter-spacing: 0.25em;
   color: var(--ak-muted);
